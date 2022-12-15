@@ -8,9 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    display: none;
-    color: yellow;
-    background-color: rgba(231, 83, 8, 0.719);
+
 }
 header{
     background-color: rgba(0, 0, 0, 0.877);
@@ -23,11 +21,14 @@ body{
     height: 2300px;
  
 }
-
+nav a{
+    display: none;
+    color: yellow;
+}
 nav a:hover{
     transition: 0.5s;
-    background-color: rgba(8, 231, 56, 0.719);
- 
+    background-color: rgba(231, 83, 8, 0.719);
+    color: black;
 }
 .logo{
     width: 20%;
@@ -62,8 +63,11 @@ div {
     left: 100px;
     color: aliceblue;
     background-color: rgb(0, 0, 0);
-    position: absolute center;
-
+    width: 1200px;
+    padding: 25px;
+    border: 10px solid rgb(0, 0, 0);
+    margin: 25px;
+    
 }
 .falecomigo{
     position: absolute;
