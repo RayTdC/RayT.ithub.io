@@ -21,9 +21,10 @@ body{
     height: 2300px;
  
 }
-nav a{
-    display: none;
+a{
     color: yellow;
+    text-decoration: none;
+
 }
 nav a:hover{
     transition: 0.5s;
